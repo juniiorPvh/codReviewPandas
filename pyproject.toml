@@ -1,0 +1,23 @@
+[project]
+name = "teste"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Junior Santos",email = "juniior.pvh@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.4.0"
+ipykernel = "^6.29.5"
+pdfplumber = "^0.11.6"
+pandas = "^2.2.3"
+
